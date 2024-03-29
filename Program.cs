@@ -17,10 +17,10 @@ do
         Console.Write("Choose an option: ");
         option = CheckOption(Convert.ToInt32(Console.ReadLine()));
 
-        Console.Write("\nType a first number: ");
+        Console.Write("\nType first number: ");
         num1 = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write("Type a second number: ");
+        Console.Write("Type second number: ");
         num2 = Convert.ToInt32(Console.ReadLine());
 
         Calculator calculator = new Calculator();
